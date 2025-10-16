@@ -1,0 +1,44 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="none" />
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 200) scale(200)">
+      <stop offset="0" stop-color="#1e3a8a" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#020617" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#glow)" />
+  <g stroke="#1d4ed8" stroke-opacity="0.25" stroke-width="0.8">
+    <path d="M40 40L120 120L200 80L280 160L360 120" />
+    <path d="M40 200L120 260L200 220L280 300L360 260" />
+    <path d="M40 320L140 240L220 280L320 200L360 240" />
+  </g>
+  <g stroke="#38bdf8" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
+    <path d="M80 340L120 200L200 260L260 140L340 200" />
+    <path d="M60 120L140 200L220 120L300 200L340 60" />
+  </g>
+  <g fill="#38bdf8" fill-opacity="0.8">
+    <circle cx="40" cy="40" r="3" />
+    <circle cx="120" cy="120" r="3" />
+    <circle cx="200" cy="80" r="3" />
+    <circle cx="280" cy="160" r="3" />
+    <circle cx="360" cy="120" r="3" />
+    <circle cx="80" cy="340" r="3" />
+    <circle cx="120" cy="200" r="3" />
+    <circle cx="200" cy="260" r="3" />
+    <circle cx="260" cy="140" r="3" />
+    <circle cx="340" cy="200" r="3" />
+    <circle cx="60" cy="120" r="3" />
+    <circle cx="220" cy="120" r="3" />
+    <circle cx="300" cy="200" r="3" />
+  </g>
+  <g fill="#a855f7" fill-opacity="0.6">
+    <circle cx="40" cy="200" r="2.5" />
+    <circle cx="120" cy="260" r="2.5" />
+    <circle cx="200" cy="220" r="2.5" />
+    <circle cx="280" cy="300" r="2.5" />
+    <circle cx="360" cy="260" r="2.5" />
+    <circle cx="140" cy="240" r="2.5" />
+    <circle cx="220" cy="280" r="2.5" />
+    <circle cx="320" cy="200" r="2.5" />
+  </g>
+</svg>

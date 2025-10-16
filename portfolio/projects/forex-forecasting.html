@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Case study: Foreign exchange rate forecasting with statistical modeling and deep learning by Kushala Rani Talakad Manjunath."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Foreign Exchange Forecasting | Case Study</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="../index.html#hero">Kushala Rani</a>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="site-nav-list"
+          >
+            <span class="nav-toggle-line"></span>
+            <span class="nav-toggle-line"></span>
+            <span class="nav-toggle-line"></span>
+            <span class="sr-only">Menu</span>
+          </button>
+          <div class="nav-actions">
+            <ul id="site-nav-list" class="site-nav-list">
+              <li><a href="../index.html#about">About</a></li>
+              <li><a href="../index.html#skills">Skills</a></li>
+              <li><a href="../index.html#projects">Projects</a></li>
+              <li><a href="../index.html#contact">Contact</a></li>
+              <li>
+                <a class="resume-link" href="../assets/resume/resume.pdf" target="_blank"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle color theme">
+              <img class="theme-icon" src="../assets/icons/theme-light.svg" alt="" aria-hidden="true" />
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="detail-header">
+        <div class="container">
+          <a class="detail-back" href="../index.html#projects">← Back to projects</a>
+          <div class="detail-hero">
+            <div>
+              <h1>Foreign Exchange Rate Forecasting</h1>
+              <div class="detail-summary">
+                <p>
+                  Built a forecasting pipeline for the EUR/USD currency pair using
+                  statistical baselines and deep learning. Combined classical time
+                  series analysis with recurrent and convolutional networks to
+                  surface medium-term trading signals for a graduate analytics
+                  project.
+                </p>
+              </div>
+            </div>
+            <dl class="detail-meta">
+              <div>
+                <dt>Timeline</dt>
+                <dd>Jan 2024 – Apr 2024</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Graduate Researcher</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>Python, R, pandas, statsmodels, TensorFlow, Keras</dd>
+              </div>
+              <div>
+                <dt>Dataset</dt>
+                <dd>6,119 historical EUR/USD observations (daily)</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <div class="container">
+          <h2>Approach</h2>
+          <ul>
+            <li>
+              Engineered features from macroeconomic indicators and technical
+              signals (momentum, volatility, moving averages) to enhance model
+              sensitivity.
+            </li>
+            <li>
+              Benchmarked ARIMA/SARIMA models before progressing to stacked RNN
+              and CNN architectures for capturing both long- and short-term
+              patterns.
+            </li>
+            <li>
+              Tuned hyperparameters with rolling-window cross validation to align
+              training with real-world deployment constraints.
+            </li>
+            <li>
+              Created dashboards that visualized forecasts, confidence intervals,
+              and error diagnostics for presentation to faculty.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="detail-section section-alt">
+        <div class="container">
+          <h2>Highlights</h2>
+          <ul>
+            <li>
+              Improved directional accuracy over statistical baselines and
+              produced sharable notebooks to support scenario analysis.
+            </li>
+            <li>
+              Delivered a narrative report translating complex model outputs into
+              actionable insights for technical trading recommendations.
+            </li>
+            <li>
+              Documented an extensible roadmap for incorporating exogenous
+              features and live data feeds in future iterations.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Kushala Rani Talakad Manjunath.</p>
+      </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>

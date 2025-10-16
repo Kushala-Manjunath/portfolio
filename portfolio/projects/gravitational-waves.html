@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Case study: Detecting gravitational waves with convolutional neural networks by Kushala Rani Talakad Manjunath."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Detecting Gravitational Waves | Case Study</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="../index.html#hero">Kushala Rani</a>
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="site-nav-list"
+          >
+            <span class="nav-toggle-line"></span>
+            <span class="nav-toggle-line"></span>
+            <span class="nav-toggle-line"></span>
+            <span class="sr-only">Menu</span>
+          </button>
+          <div class="nav-actions">
+            <ul id="site-nav-list" class="site-nav-list">
+              <li><a href="../index.html#about">About</a></li>
+              <li><a href="../index.html#skills">Skills</a></li>
+              <li><a href="../index.html#projects">Projects</a></li>
+              <li><a href="../index.html#contact">Contact</a></li>
+              <li>
+                <a class="resume-link" href="../assets/resume/resume.pdf" target="_blank"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle color theme">
+              <img class="theme-icon" src="../assets/icons/theme-light.svg" alt="" aria-hidden="true" />
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="detail-header">
+        <div class="container">
+          <a class="detail-back" href="../index.html#projects">← Back to projects</a>
+          <div class="detail-hero">
+            <div>
+              <h1>Detecting Gravitational Waves with CNNs</h1>
+              <div class="detail-summary">
+                <p>
+                  Built a convolutional neural network pipeline that detects
+                  gravitational waves from binary black holes (BBH), binary neutron
+                  stars (BNS), and neutron star–black hole (NSBH) mergers using
+                  open LIGO GWOSC data. Deliverables included annotated notebooks,
+                  model explainability artifacts, and presentation materials for a
+                  graduate machine learning course.
+                </p>
+              </div>
+            </div>
+            <dl class="detail-meta">
+              <div>
+                <dt>Timeline</dt>
+                <dd>Jan 2025 – Apr 2025</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Graduate Researcher</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>Python, TensorFlow, NumPy, SciPy, Matplotlib</dd>
+              </div>
+              <div>
+                <dt>Contributions</dt>
+                <dd>Signal preprocessing, CNN architecture, evaluation, reporting</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <div class="container">
+          <h2>Approach</h2>
+          <ul>
+            <li>
+              Curated training corpora from real and simulated LIGO GWOSC strain
+              data, labeling BBH, BNS, and NSBH events to balance the dataset.
+            </li>
+            <li>
+              Applied band-pass filtering, whitening, and windowing to boost
+              signal-to-noise ratio prior to feeding tensors into the network.
+            </li>
+            <li>
+              Architected a multi-branch CNN with residual connections to capture
+              temporal patterns and reduce overfitting on noisy inputs.
+            </li>
+            <li>
+              Implemented Grad-CAM plots to interpret salient regions and
+              communicated findings to faculty and peers.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="detail-section section-alt">
+        <div class="container">
+          <h2>Highlights</h2>
+          <ul>
+            <li>
+              Achieved 90% confidence on the GW170817 neutron star merger and
+              produced calibration curves that validated model reliability.
+            </li>
+            <li>
+              Delivered reproducible notebooks with automated environment setup,
+              enabling classmates to rerun experiments with minimal friction.
+            </li>
+            <li>
+              Shared learnings on signal preprocessing and explainability in a
+              lightning talk that informed future cohorts' project scoping.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Kushala Rani Talakad Manjunath.</p>
+      </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>

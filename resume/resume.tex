@@ -1,0 +1,139 @@
+\documentclass[a4paper,10pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.88, top=1.2cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+\usepackage{supertabular}
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{6pt}{6pt}
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\usepackage{fontawesome5}
+
+% job listing environments
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[2pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,leftmargin=1em, itemsep=2pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Large{\textbf{Kushala Rani Talakad Manjunath}} \\[5pt]
+\href{https://github.com/Kushala-Manjunath}{\faGithub\ GitHub} \ $|$ \ 
+\href{https://www.linkedin.com/in/kushala-rani/}{\faLinkedin\ LinkedIn} \ $|$ \ 
+\href{mailto:talakadmanjunath.k@northeastern.edu}{\faEnvelope \ talakadmanjunath.k@northeastern.edu} \ $|$ \ 
+\href{tel:+18573967447}{\faMobile \ (857) 396-7447} \ $|$ \ Boston, MA \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY
+%----------------------------------------------------------------------------------------
+\section{Summary}{Graduate student in Applied Mathematics with expertise in SQL, Python, R and statistical analysis for data-driven decision-making. Skilled in extracting, cleaning, and modeling complex datasets, building predictive models, and creating insightful visualizations.} {Strong communicator with proven ability to translate analytics into actionable business recommendations.}
+
+\newcommand{\resumeSubheading}[5]{
+  \vspace{1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      #3 & #4 \\
+      \multicolumn{2}{p{0.97\textwidth}}{#5} \\
+    \end{tabular*}\vspace{-5pt}
+}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+   \resumeSubheading
+        {Northeastern University}{Boston, MA, USA}
+        {Master of Science in Applied Mathematics, GPA: 3.524}{Jan 2024 -- Dec 2025}
+        {Relevant Courses: Neural Networks and Deep Learning, Machine Learning, Applied Statistics, Numerical Analysis}
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+Programming Languages: & Python, R, MATLAB, SQL, C \\
+Software Tools \& Packages: & NLP, Pandas, NumPy, TensorFlow, Keras, PyTorch, Matplotlib, Seaborn, Power BI,  Dashboards, Microsoft Office Suite, Jupyter Notebook, Google Sheets, LaTeX, GIS (Geographic Information System), CAD (Computer-aided Design), AutoCAD, STAAD PRO (Structural Analysis and Designing Program) \\
+Certifications: & Top 10 percentile in International Academic Wiz (IAW), Matrix Method
+of Structural Analysis (NPTEL), Python for Data Science (NPTEL),
+MATLAB \\
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+
+\begin{joblong}{Administrative Assistant, Bridge to Calculus (BtC), Boston, MA}{Apr 2025 -- Aug 2025}
+\item Analyzed and optimized \$200K program budget using SQL and Excel, identifying inefficiencies, improving allocation for financial sustainability and optimizing
+resource allocation to enhance impact for 100+ underrepresented STEM students.
+\item Built dashboards to track KPIs, enhancing transparency by improving cross-team communication, coordinated annual campus events and streamlined administrative operations by implementing digital systems and automations, improving team communication and reducing preparation time by 30\%, while achieving 95\% participant satisfaction.  
+\end{joblong}
+
+\begin{joblong}{Teaching Assistant, Northeastern University, Boston, MA}{Jan 2025 -- Apr 2025}
+\item Worked as Teaching Assistant for Applied Mathematics Capstone by guiding 30+ undergraduate students on ML model development, deployment workflows, and reproducibility best practices.
+\item Conducted workshops on Git version control, collaborative coding practices for data science projects, mentored student teams on end-to-end pipelines including data pre-processing, model training, and performance evaluation.
+\end{joblong}
+
+\begin{joblong}{Student Mentor, Bridge to Calculus (BtC), Boston, MA}{Jun 2024 -- Aug 2024}
+\item Worked as a mentor in Precalculus for High School Students of BPS (Boston Public Schools).  
+\item Involved in mentoring for Project Math and Math for Biology and Chemistry, also helped in working NetLogo Web to come up with Models for Biology.  
+\end{joblong}
+
+\begin{joblong}{Intern, Public Works Department (PWD), Mysore, India}{Aug 2022 -- Sept 2022}
+\item Participated in on-site management of road and park construction activities, overseeing tasks related to scheduling, material handling, and team coordination.  
+\item Assisted with various phases of bituminous road construction-base preparation, bituminous coating, mix laying, and surface compaction as well as installation of kerbs, pavements, and road studs.  
+\end{joblong}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Detecting Gravitational Waves Using CNNs} & \hfill Jan 2025 -- Apr 2025 \\
+\multicolumn{2}{@{}X@{}}{Developed a CNN model in a graduate course at Northeastern University using real and synthetic LIGO GWOSC data to detect gravitational waves from BBH, BNS, and NSBH events, applying advanced signal preprocessing to improve classification accuracy and successfully identifying GW170817 with 90\% confidence.} \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Foreign Exchange Rate Forecasting (ML)} & \hfill Jan 2024 -- Apr 2024 \\
+\multicolumn{2}{@{}X@{}}{Developed a graduate-level project at Northeastern University applying statistical time series analysis and deep learning (RNNs and CNNs) to model medium-term EUR/USD currency pair movements, analyzing 6,119 historical observations and improving predictive accuracy with actionable insights for technical analysis.} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\rule{18cm}{0.6pt}
+
+\textbf{Volunteer Experience:} Served as academic support instructor at an NGO (Make A Difference), teaching mathematics to final-year high school students for two years.
+\vfill
+\end{document}
