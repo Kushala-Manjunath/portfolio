@@ -8,9 +8,17 @@ I'm passionate about leveraging mathematical modeling, data analysis, and engine
 
 ## 🔗 Connect With Me
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=google-chrome)](https://kushala-manjunath.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/kushala-rani)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:talakadmanjunath.k@northeastern.edu)
+<p align="center">
+  <a href="https://kushala-manjunath.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_My_Work-4A90E2?style=for-the-badge&labelColor=2C3E50" alt="Portfolio"/>
+  </a>
+  <a href="https://linkedin.com/in/kushala-rani">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:talakadmanjunath.k@northeastern.edu">
+    <img src="https://img.shields.io/badge/Gmail-Drop_A_Line-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email"/>
+  </a>
+</p>
 
 ---
 
