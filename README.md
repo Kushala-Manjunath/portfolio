@@ -1,4 +1,4 @@
-# Hi, I'm Kushala Rani! 👋
+# Hi, I'm Kushala Rani! 
 
 **MS in Applied Mathematics | Civil Engineer | Data Science Enthusiast**
 
@@ -10,14 +10,14 @@ I'm passionate about leveraging mathematical modeling, data analysis, and engine
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=google-chrome)](https://kushala-manjunath.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/kushala-rani-talakad-manjunath)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:your-email@example.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:talakadmanjunath.k@northeastern.edu)
 
 ---
 
 ## 🎓 Education
 
-- **MS in Applied Mathematics** - Northeastern University
-- **BS in Civil Engineering** - Visvesvaraya Technological University
+- **Master of Science in Applied Mathematics** - Northeastern University
+- **Bachelor of Engineering in Civil Engineering** - JSS Science and Technological University
 
 ---
 
@@ -79,19 +79,6 @@ Engineering study on Reclaimed Asphalt Pavement (RAP) applications following MOR
 - **Student Mentor** - Supporting underrepresented STEM students
 - **Volunteer Academic Teacher** - Make A Difference NGO
 - **Engineering Intern** - PWD, Infrastructure Projects
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kushala-Manjunath&show_icons=true&theme=default)
-
----
-
-## 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-*Coming soon - stay tuned for insights on data science and engineering!*
-<!-- BLOG-POST-LIST:END -->
 
 ---
 
